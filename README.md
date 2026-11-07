@@ -1,25 +1,12 @@
-LCD显示驱动
+LCD Display Driverlcd.h and lcd.c - Core LCD display driver header and source files
+lcd_ex.c - Implementation of extended LCD functions
 
-lcd.h 和 lcd.c - 主要的LCD显示驱动头文件和源文件
+Touchscreen Drivertouch.h and touch.c - Touchscreen driver files
 
-lcd_ex.c - LCD扩展功能实现
+FSMC Driver (for connecting external display devices)fsmc.h and fsmc.c - FSMC controller configuration, commonly used for the parallel interface of LCD controllers such as the ILI9341
 
-触摸屏驱动
+Fonts and Graphicslcdfont.h and lcdfont.c - Font definitions and character rendering routines
 
-touch.h 和 touch.c - 触摸屏驱动
+SPI Driver (for serial display interfaces)spi.h and spi.c - SPI communication interface files
 
-FSMC驱动 (用于连接外部显示设备)
-
-fsmc.h 和 fsmc.c - FSMC控制器配置，通常用于ILI9341等LCD控制器的并行接口
-
-字体和图像相关
-
-lcdfont.h 和 lcdfont.c - 字体定义和字符显示功能
-
-SPI驱动 (如果使用串行接口连接显示屏)
-
-spi.h 和 spi.c - SPI通信接口
-
-代码附有注释
-
-严禁商用
+Code is fully commentedStrictly prohibited for commercial use (or: Non-commercial use only)
