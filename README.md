@@ -9,4 +9,3 @@ Fonts and Graphicslcdfont.h and lcdfont.c - Font definitions and character rende
 
 SPI Driver (for serial display interfaces)spi.h and spi.c - SPI communication interface files
 
-Code is fully commentedStrictly prohibited for commercial use (or: Non-commercial use only)
